@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <Box>
       <div className='text-2xl font-bold pt-14'>
-        Hello {currentUser.displayName ? currentUser.displayName : currentUser.email}, you are now logged in.
+        Bonjour {currentUser.displayName ? currentUser.displayName : currentUser.email}, Vous êtes maintenant connecté(e).
       </div>
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
